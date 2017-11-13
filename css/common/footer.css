@@ -1,0 +1,85 @@
+/* 底部 */
+.bottom-wrap{
+    width: 100%;
+    background:#292929;
+}
+.bottom{
+    width: 1200px;
+    padding:70px 0 45px 0;
+    margin:0 auto;
+    color:#fff;
+}
+.bottom h3{
+    height: 18px;
+    color:#fff;
+    margin-bottom:20px;
+}
+.bottom ul li{
+    line-height: 26px;
+}
+.bottom ul li a{
+    color:#fff;
+}
+.bottom .to-index{
+    width: 200px;
+    float: left;
+}
+.bottom .to-area{
+    width: 180px;
+    float: left;
+}
+.bottom .to-team{
+    width: 205px;
+    float: left;
+}
+.bottom .wx-code{
+    width: 124px;
+    float: left;
+}
+.bottom .wx-code .wx-pic{
+    width: 100%;
+    height:124px;
+    background:#fff;
+}
+.bottom .wx-code .wx-pic img{
+    width:100%;
+    height:100%;
+}
+.bottom .wx-code .wx-text{
+    margin-top:22px;
+    font-size: 14px;
+    text-align:center;
+}
+.bottom .to-link{
+    float: left;
+    margin-left:38px;
+    
+}
+.bottom .to-link .t-l-phone{
+    font-size:16px;
+    color:#fff;
+    margin:16px 0 20px 0;
+}
+.bottom .to-link .t-l-phone span{
+    color:#fa0000;
+    margin-left:10px;
+}
+.bottom .t-l-link{
+    line-height:30px;
+}
+.bottom .t-l-link i{
+    width:44px;
+    display: inline-block;
+    text-align:right;
+}
+.bottom-wrap .b-footer{
+    height: 83px;
+    border-top:1px solid #fff;
+    text-align:center;
+    line-height:83px;
+    color:#fff;
+    font-size:14px;
+}
+.bottom-wrap .b-footer span{
+    margin-left:20px;
+}

@@ -1,0 +1,70 @@
+.header-wrap{
+    width:100%;
+    height:155px;
+}
+.header{
+    width: 1190px;
+    padding:0 5px;
+    height: 100px;
+    margin:0 auto;
+    padding-top:55px;
+}
+.header .logo{
+    float: left;
+}
+.header .logo img{
+    width: 589px;
+    height:51px;
+}
+.header .mobile{
+    float: right;
+    line-height: 44px;
+    width: 360px;
+}
+.header .phone-icon{
+    float: left;
+    width: 46px;
+    height:43px;
+    background: url(../../images/phone-num.png) no-repeat;
+}
+.header .phone-num{
+    float: right;
+    color:#fa0000;
+    font-size: 36px;
+    font-weight: 700;
+}
+/* 导航nav */
+.nav-wrap{
+    width: 100%;
+    height:82px;
+    background: #2a3b57;
+}
+.nav{
+    width: 1200px;
+    height: 100%;
+    margin:0 auto;
+}
+.nav .nav-lists{
+    height:80px;
+}
+.nav-lists li{
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    font-size:18px;
+    width: 150px;
+    height: 80px;
+    color:#fff;
+    cursor: pointer;
+}
+.nav-lists li a{
+    color:#fff;
+    display: block;
+}
+.nav-lists li.active{
+    background: #fff;
+    border-bottom:3px solid #008bff;
+}
+.nav-lists li.active a{
+    color:#008bff;
+}

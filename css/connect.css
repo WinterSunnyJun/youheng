@@ -1,0 +1,149 @@
+
+/* banner */
+.banner-wrap{
+    width: 100%;
+    height: 498px;
+    background: #e47900; 
+}
+.banner-wrap img{
+    width: 100%;
+    height:100%;
+}
+/* content */
+.content-wrap{
+    width: 100%;
+    background: #f5f5f5;
+}
+.title-en{
+    font-size:18px;
+    text-align: center;
+    color:#333;
+
+}
+.title-na{
+    font-size:24px;
+    margin-top:8px;
+    text-align: center;
+    color:#333;
+}
+.connect{
+    padding-top:62px;
+    padding-bottom:50px;
+}
+.connect-info{
+    width:1120px;
+    margin:75px auto 0;
+    background: #fff;
+    padding:40px;
+}
+.c-c-left{
+    float: left;
+    width: 320px;
+}
+.c-c-left h3{
+    color:#646363;
+    font-size:20px;
+    margin-bottom:38px;
+}
+.c-c-left ul li{
+    margin-bottom:25px;
+}
+.c-c-left ul li .type-icon{
+    float: left;
+}
+.c-c-left ul li .type-icon.icon1{
+    width: 20px;
+    height: 15px;
+    margin-top:4px;
+    background: url(../images/c-wx.png) no-repeat center center;
+}
+.c-c-left ul li .type-icon.icon2{
+    width: 20px;
+    height: 20px;
+    background: url(../images/c-QQ.png) no-repeat center center;
+}
+.c-c-left ul li .type-icon.icon3{
+    width: 20px;
+    height: 16px;
+    margin-top:4px;
+    background: url(../images/c-address.png) no-repeat center center;
+}
+.c-c-left ul li .type-icon.icon4{
+    width: 20px;
+    height: 13px;
+    margin-top:4px;
+    background: url(../images/c-mobile.png) no-repeat center center;
+}
+.c-c-left ul li .type-icon.icon5{
+    width: 20px;
+    height: 20px;
+    margin-top:-1px;
+    background: url(../images/c-phone.png) no-repeat center center;
+}
+
+.c-c-left ul li .type-name{
+    float: left;
+    margin:0 8px 0 15px;
+}
+.c-c-left ul li .type-content{
+    float: left;
+    width: 200px;
+}
+.c-c-left ul li .type-content p{
+   margin-bottom:10px;
+}
+
+.c-c-right{
+    float: left;
+    width: 800px;
+    height:385px;
+}
+.c-c-right img{
+    width: 100%;
+    height: 100%;
+}
+.bottom-line{
+    width: 525px;
+    height:0;
+    border-bottom:1px solid #d9d9d9;
+}
+.to-submit-feed{
+    width: 285px;
+    height: 48px;
+    background: #008bff;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+    font-size: 16px;
+    margin:0 auto;
+    cursor: pointer;
+}
+.sense{
+    width: 1200px;
+    margin:85px auto 148px;
+}
+.sense .c-s-title{
+    height: 62px;
+    line-height: 62px;
+}
+
+.c-s-title .s-t-left{
+    float: left;
+    font-size: 24px;
+    color:#333;
+}
+.c-s-title .s-t-right{
+    float: right;
+    margin-top:22px;
+    width:105px;
+    height: 18px;
+    background: url(../images/d-go-more.png) no-repeat;
+    cursor: pointer;
+}
+.sense-info ul li{
+    float: left;
+    width: 400px;
+    height: 270px;
+    background: red;
+}
+
