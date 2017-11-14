@@ -5,26 +5,40 @@
     height: 638px;
     background: #e47900; 
 }
-.banner-wrap img{
+.banner-list{
     width: 100%;
-    height:100%;
+    height: 100%;
+}
+.banner-list li{
+    width: 100%;
+    height: 100%;
 }
 
 /* content */
 .content-wrap{
     width: 100%;
 }
+.title-en-left{
+    font-size:18px;
+    color:#333;
+    text-indent: 24px;
+}
+.title-na-left{
+    font-size:24px;
+    margin-top:8px;
+    color:#333;
+    text-indent: 24px;
+}
 .title-en{
     font-size:18px;
-    text-align: center;
     color:#333;
-
+    text-align: center;
 }
 .title-na{
     font-size:24px;
     margin-top:8px;
-    text-align: center;
     color:#333;
+    text-align: center;
 }
 .domain{
     width: 1200px;
@@ -42,6 +56,7 @@
     height:286px;
 }
 .domain-info ul li{
+    position: relative;
     float: left;
     background: #93b7db;
     width:222px;
@@ -50,6 +65,76 @@
     overflow: hidden;
     margin-right:38px;
 }
+.domain-itme-icon{
+    width: 82px;
+    height: 82px;
+    margin: 60px auto 0;
+}
+.domain-item-ch{
+    margin-top: 36px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+}
+.domain-item-en{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+}
+.domain-mask{
+    display: none;
+    background: #4e9deb;
+    position: absolute;
+    padding: 35px 28px 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    z-index: 2;
+}
+.domain-info ul li:hover .domain-mask{
+    display: block;
+}
+.domain-info ul li:hover{
+    box-shadow: 0 10px 5px #d1e6fa;
+}
+.domain-mask-title span{
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    background: #ffffff;
+    margin-bottom: 6px;
+}
+.domain-mask-title h3{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 24px;
+}
+.domain-mask-content{
+    color: #ffffff;
+    line-height: 20px;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    margin-top: 40px;
+}
+.domain-mask-detail{
+    margin-top: 20px;
+}
+.domain-mask-detail a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
 .d-btn{
     width: 21px;
     height: 39px;
@@ -310,9 +395,62 @@
 .sense-info ul li{
     float: left;
     width: 400px;
-    height: 270px;
-    background: red;
+    height: auto;
 }
+.sense-item-pic{
+    position: relative;
+    width: 100%;
+    height: 268px;
+}
+.sense-mask-pic{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(50,50,50,.3);
+    width: 100%;
+    height: 100%;
+}
+.sense-item-pic:hover .sense-mask-pic{
+    display: block;
+}
+.sense-mask-pic img{
+    display: block;
+    width: 54px;
+    height: 54px;
+    margin: 100px auto;
+}
+.sense-item-text{
+    padding: 80px 70px 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 268px;
+    background: #93b7db;
+}
+.sense-item-text:hover{
+    background: #008bff;
+}
+.sense-text-time{
+    color: #ffffff;
+    font-size: 24px;
+}
+.sence-text-line{
+    width: 100%;
+    height: 1px;
+    background: #ffffff;
+    margin: 28px 0 28px;
+}
+.sense-text-content{
+    color: #ffffff;
+    letter-spacing: 2px;
+    line-height: 18px;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow: inherit;
+    text-overflow: ellipsis;
+}
+
 
 /* 右侧悬浮 */
 .pf-slide{

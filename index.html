@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>首页</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
     <link rel="stylesheet" type="text/css" href="css/common/common.css">
     <link rel="stylesheet" type="text/css" href="css/common/header.css">
     <link rel="stylesheet" type="text/css" href="css/common/footer.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/sj.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/js.js"></script>
 </head>
 <body>
     <!-- 头部 -->
@@ -32,45 +38,149 @@
                     <a href="index.html">首页</a>
                 </li>
                 <li>
-                    <a href="index.html">业务范围</a>
+                    <a href="ywfw.html">业务范围</a>
                 </li>
                 <li>
-                    <a href="index.html">团队介绍</a>
+                    <a href="tdjs.html">团队介绍</a>
                 </li>
                 <li>
-                    <a href="index.html">成功案例</a>
+                    <a href="cgal.html">成功案例</a>
                 </li>
                 <li>
-                    <a href="index.html">服务流程</a>
+                    <a href="fwlc.html">服务流程</a>
                 </li>
                 <li>
-                    <a href="index.html">法律常识</a>
+                    <a href="flcs.html">法律常识</a>
                 </li>
                 <li>
-                    <a href="index.html">在线留言</a>
+                    <a href="zxly.html">在线留言</a>
                 </li>
                 <li>
-                    <a href="index.html">联系我们</a>
+                    <a href="connect.html">联系我们</a>
                 </li>
-
             </ul>
         </div>
     </div>
+    <!--手机nav-->
+    <div class="sj-nav clearfix w100">
+        <div class="sj-logo fl">
+            <img src="images/sj-logo.png" alt="69*30">
+        </div>
+        <div class="sj-nav-bar fr" id="sj-nav-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="sj-nav-menu">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="ywfw.html">业务范围</a></li>
+            <li><a href="tdjs.html">团队介绍</a></li>
+            <li><a href="cgal.html">成功案例</a></li>
+            <li><a href="fwlc.html">服务流程</a></li>
+            <li><a href="flcs.html">法律常识</a></li>
+            <li><a href="zxly.html">在线留言</a></li>
+            <li><a href="connect.html">联系我们</a></li>
+        </ul>
+    </div>
+
+    <!--手机nav结束-->
     <!-- banner图 -->
     <div class="banner-wrap">
-        <img src="images/banner1.jpg" alt="">
-    </div> 
+        <ul class="banner-list" id="banner-list">
+            <li><a href="javascript:;">
+                <img src="images/banner.jpg" alt="1920*638">
+            </a></li>
+            <li><a href="javascript:;">
+                <img src="images/banner.jpg" alt="1920*638">
+            </a></li>
+            <li><a href="javascript:;">
+                <img src="images/banner.jpg" alt="1920*638">
+            </a></li>
+        </ul>
+    </div>
     <!-- content -->
     <div class="content-wrap">
         <div class="domain">
-            <div class="title-en">BUSINESS DOMAIN</div>
-            <div class="title-na">业务领域</div>
+            <div class="title-na-left">业务领域</div>
+            <div class="title-en-left">BUSINESS DOMAIN</div>
             <div class="domain-info">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>
+                        <div class="domain-itme-icon">
+                            <img src="images/domain1.png" alt="82*82">
+                        </div>
+                        <div class="domain-item-ch">房产</div>
+                        <div class="domain-item-en  ">House property</div>
+                        <div class="domain-mask">
+                            <div class="domain-mask-title">
+                                <span></span>
+                                <h3>房产</h3>
+                                <span></span>
+                            </div>
+                            <p class="domain-mask-content">
+                                婚约财产纠纷、离婚纠纷、离婚后财产纠纷、离婚后损害责任
+                                纠纷、婚姻无效纠纷撤销婚姻纠纷、夫妻财产约定纠纷
+                            </p>
+                            <div class="domain-mask-detail"><a href="javascript:;">DETAILS→</a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="domain-itme-icon">
+                            <img src="images/domain2.png" alt="82*82">
+                        </div>
+                        <div class="domain-item-ch">离婚</div>
+                        <div class="domain-item-en  ">House property</div>
+                        <div class="domain-mask">
+                            <div class="domain-mask-title">
+                                <span></span>
+                                <h3>离婚</h3>
+                                <span></span>
+                            </div>
+                            <p class="domain-mask-content">
+                                婚约财产纠纷、离婚纠纷、离婚后财产纠纷、离婚后损害责任
+                                纠纷、婚姻无效纠纷撤销婚姻纠纷、夫妻财产约定纠纷
+                            </p>
+                            <div class="domain-mask-detail"><a href="javascript:;">DETAILS→</a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="domain-itme-icon">
+                            <img src="images/domain3.png" alt="82*82">
+                        </div>
+                        <div class="domain-item-ch">继承</div>
+                        <div class="domain-item-en  ">Inherit</div>
+                        <div class="domain-mask">
+                            <div class="domain-mask-title">
+                                <span></span>
+                                <h3>继承</h3>
+                                <span></span>
+                            </div>
+                            <p class="domain-mask-content">
+                                婚约财产纠纷、离婚纠纷、离婚后财产纠纷、离婚后损害责任
+                                纠纷、婚姻无效纠纷撤销婚姻纠纷、夫妻财产约定纠纷
+                            </p>
+                            <div class="domain-mask-detail"><a href="javascript:;">DETAILS→</a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="domain-itme-icon">
+                            <img src="images/domain4.png" alt="82*82">
+                        </div>
+                        <div class="domain-item-ch">拆迁</div>
+                        <div class="domain-item-en  ">Demolition</div>
+                        <div class="domain-mask">
+                            <div class="domain-mask-title">
+                                <span></span>
+                                <h3>拆迁</h3>
+                                <span></span>
+                            </div>
+                            <p class="domain-mask-content">
+                                婚约财产纠纷、离婚纠纷、离婚后财产纠纷、离婚后损害责任
+                                纠纷、婚姻无效纠纷撤销婚姻纠纷、夫妻财产约定纠纷
+                            </p>
+                            <div class="domain-mask-detail"><a href="javascript:;">DETAILS→</a></div>
+                        </div>
+                    </li>
                 </ul>
                 <div class="d-btn btn-left"></div>
                 <div class="d-btn btn-right"></div>
@@ -241,24 +351,57 @@
             </div>
             <div class="sense-info">
                 <ul class="clear">
-                    <li>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                    </li>
+                    <li><a href="javascript:;">
+                        <div class="sense-item-pic">
+                            <img src="images/sense.jpg" alt="400*268"/>
+                            <div class="sense-mask-pic">
+                                <img src="images/sense-down.png" alt="54*54">
+                            </div>
+                        </div>
+                        <div class="sense-item-text">
+                            <div class="sense-text-time">
+                                2017/10/10
+                            </div>
+                            <div class="sence-text-line"></div>
+                            <p class="sense-text-content">
+                                本部门汇集了业内多位专业从事婚姻家庭法律事务的资深律师
+                            </p>
+                        </div>
+                    </a></li>
+                    <li><a href="javascript:;">
+                        <div class="sense-item-text">
+                            <div class="sense-text-time">
+                                2017/10/10
+                            </div>
+                            <div class="sence-text-line"></div>
+                            <p class="sense-text-content">
+                                本部门汇集了业内多位专业从事婚姻家庭法律事务的资深律师
+                            </p>
+                        </div>
+                        <div class="sense-item-pic">
+                            <img src="images/sense2.jpg" alt="400*268"/>
+                            <div class="sense-mask-pic">
+                                <img src="images/sense-up.png" alt="54*54">
+                            </div>
+                        </div>
+                    </a></li>
+                    <li><a href="javascript:;">
+                        <div class="sense-item-pic">
+                            <img src="images/sense3.jpg" alt="400*268"/>
+                            <div class="sense-mask-pic">
+                                <img src="images/sense-down.png" alt="54*54">
+                            </div>
+                        </div>
+                        <div class="sense-item-text">
+                            <div class="sense-text-time">
+                                2017/10/10
+                            </div>
+                            <div class="sence-text-line"></div>
+                            <p class="sense-text-content">
+                                本部门汇集了业内多位专业从事婚姻家庭法律事务的资深律师
+                            </p>
+                        </div>
+                    </a></li>
                 </ul>
             </div>
         </div>
@@ -389,6 +532,25 @@
             <span>版权所有归北京永恒律师事务所有限公司所有前潮网络技术支持</span>
         </div>
     </div>
+    <!--手机端底部-->
+    <div class="pho_footer">
+        <ul class="clearfix">
+            <li><a href="javascript:;">
+                <p class="fIcon_pic"><img src="images/fIcon_home.png"/></p>
+                <p class="fIcon_text">首页</p>
+            </a></li>
+            <li><a href="javascript:;">
+                <p class="fIcon_pic"><img src="images/fIcon_product.png"/></p>
+                <p class="fIcon_text">业务范围</p>
+            </a>
+            </li>
+            <li><a href="javascript:;">
+                <p class="fIcon_pic"><img src="images/fIcon_us.png"/></p>
+                <p class="fIcon_text">联系我们</p>
+            </a></li>
+        </ul>
+    </div>
+    <!--手机端底部结束-->
     <!-- 侧边栏 -->
     <div class="pf-slide">
         <ul>
@@ -408,14 +570,11 @@
                 <div class="pf-icons wx"></div>
                 关注微信
             </li>
-            <li>
+            <li id="back-top">
                 <div class="pf-icons back"></div>
                 返回顶部
             </li>
         </ul>
     </div>
-    <script src="js/lib/jquery-1.11.3.min.js"></script>
-    <script src="js/config/config.js"></script>
-    <script src="js/index.js"></script>
 </body>
 </html>
