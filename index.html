@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/common/header.css">
     <link rel="stylesheet" type="text/css" href="css/common/footer.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sj.css">
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/jquery.bxslider.js"></script>
@@ -104,7 +105,7 @@
             <div class="title-na-left">业务领域</div>
             <div class="title-en-left">BUSINESS DOMAIN</div>
             <div class="domain-info">
-                <ul>
+                    <ul id="domain-list">
                     <li>
                         <div class="domain-itme-icon">
                             <img src="images/domain1.png" alt="82*82">
@@ -185,13 +186,56 @@
                 <div class="d-btn btn-left"></div>
                 <div class="d-btn btn-right"></div>
             </div>
-            <div class="d-go-more"></div>
+            <div class="d-go-more"><a href="ywfw.html"></a></div>
         </div>
         <div class="s-case">
             <div class="title-en">SUCCESSFUL CASE</div>
             <div class="title-na">成功案例</div>
-            <div class="case-info">
-                
+            <div class="case-info w1200">
+                <div class="case-info-box">
+                    <ul class="case-big-list">
+                        <li>
+                            <div class="case-big-pic">
+                                <img src="images/case-big.jpg" alt="520*375">
+                            </div>
+                            <div class="case-big-text">
+                                <h5>成功案例1</h5>
+                                <p>成功案例简介成功案例简介成功案例简介
+                                    成功案例简介成功案例简介成功案例简介成功案例简介
+                                    成功案例简介成功案例简介成功案例简介成功案例简介</p>
+                                <a class="case-more" href="cgal.html">查看详情→</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="case-big-pic">
+                                <img src="images/case-big.jpg" alt="520*372">
+                            </div>
+                            <div class="case-big-text">
+                                <h5>成功案例2</h5>
+                                <p>成功案例简介成功案例简介成功案例简介
+                                    成功案例简介成功案例简介成功案例简介成功案例简介
+                                    成功案例简介成功案例简介成功案例简介成功案例简介</p>
+                                <a href="cgal.html">查看详情→</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="case-big-pic">
+                                <img src="images/case-big.jpg" alt="520*372">
+                            </div>
+                            <div class="case-big-text">
+                                <h5>成功案例3</h5>
+                                <p>成功案例简介成功案例简介成功案例简介
+                                    成功案例简介成功案例简介成功案例简介成功案例简介
+                                    成功案例简介成功案例简介成功案例简介成功案例简介</p>
+                                <a href="cgal.html">查看详情→</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="case-info-control">
+                        <span class="case-left">&lt;</span>
+                        <span class="case-right">&gt;</span>
+                    </div>
+                </div>
             </div>
             <div class="s-more">
                 <div class="s-m-txt"></div>
@@ -277,8 +321,76 @@
                     </div>
                 </div>
             </div>
+
+            <!--手机版-->
+            <div class="process-info process-info-sj">
+                <div class="p-i-top clear">
+                    <div class="p-items">
+                        <div class="p-i-icon icon1">
+                            <img src="images/zixun.png" alt="">
+                        </div>
+                        <div class="p-i-txt">1.咨询洽谈</div>
+                    </div>
+                    <div class="p-items">
+                        <div class="p-i-icon icon2">
+                            <img src="images/pingshen.png" alt="">
+                        </div>
+                        <div class="p-i-txt">2.案件评审会</div>
+                    </div>
+                    <div class="p-items">
+                        <div class="p-i-icon icon3">
+                            <img src="images/taolun.png" alt="">
+                        </div>
+                        <div class="p-i-txt">3.案件讨论会</div>
+                    </div>
+                    <div class="p-items">
+                        <div class="p-i-icon icon4">
+                            <img src="images/benzi.png" alt="">
+                        </div>
+                        <div class="p-i-txt">4.案件研讨会</div>
+                    </div>
+                    <div class="p-items">
+                        <div class="p-i-icon icon5">
+                            <img src="images/guanli.png" alt="">
+                        </div>
+                        <div class="p-i-txt">5.推演论证</div>
+                    </div>
+                </div>
+                <div class="p-i-bottom clear">
+                    <div class="p-items">
+                        <div class="p-i-icon icon6">
+                            <img src="images/lian.png" alt="">
+                        </div>
+                        <div class="p-i-txt">6.立案</div>
+                    </div>
+                    <div class="p-items">
+                        <div class="p-i-icon icon7">
+                            <img src="images/moni.png" alt="">
+                        </div>
+                        <div class="p-i-txt">7.庭前模拟</div>
+                    </div>
+                    <div class="p-items">
+                        <div class="p-i-icon icon8">
+                            <img src="images/daili.png" alt="">
+                        </div>
+                        <div class="p-i-txt">8.代理出庭</div>
+                    </div>
+                    <div class="p-items">
+                        <div class="p-i-icon icon9">
+                            <img src="images/yantao.png" alt="">
+                        </div>
+                        <div class="p-i-txt">9.庭后研讨</div>
+                    </div>
+                    <div class="p-items">
+                        <div class="p-i-icon icon10">
+                            <img src="images/jiean.png" alt="">
+                        </div>
+                        <div class="p-i-txt">10.结案</div>
+                    </div>
+                </div>
+            </div>
             <div class="s-more two">
-                <div class="s-m-txt"></div>
+                <div class="s-m-txt"><a href="cgal.html"></a></div>
             </div>
         </div>
         <div class="feed-back">
@@ -345,8 +457,7 @@
                 <div class="s-t-left">
                     法律常识
                 </div>
-                <div class="s-t-right">
-
+                <a href="flcs.html"><div class="s-t-right"></a>
                 </div>
             </div>
             <div class="sense-info">

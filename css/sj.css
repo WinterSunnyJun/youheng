@@ -1,8 +1,16 @@
 @media screen and (min-width: 320px) and (max-width: 768px){
     .header-wrap,
     .nav-wrap,
-    .pf-slide{
+    .pf-slide,
+    .bottom-wrap{
         display: none;
+    }
+    body,html{
+        overflow-x: hidden;
+    }
+    body{
+        padding-top:40px ;
+        padding-bottom: 60px;
     }
     img{
         width: 100%;
@@ -41,6 +49,7 @@
         font-size: 14px;
         text-align: center;
     }
+
     /*导航*/
     *{
         margin: 0;
@@ -92,12 +101,522 @@
     .sj-nav-menu li a{
         color: #999999;
     }
+    /*首页*/
+    .banner-wrap .bx-wrapper .bx-pager{
+        bottom: 20px;
+    }
+    .banner-wrap .bx-wrapper .bx-pager.bx-default-pager a{
+        width: 10px;
+        height: 10px;
+        margin: 0 10px;
+    }
+    .content-wrap{
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+    .domain{
+        width: 100%;
+        padding: 20px 0 20px;
+    }
+    .title-na-left,
+    .title-en-left{
+        font-size: 18px;
+    }
+    .domain-info{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .domain-info ul li{
+        height: 150px;
+    }
+    .domain-itme-icon{
+        width: 40px;
+        height: 40px;
+        margin: 20px auto;
+    }
+    .domain-item-ch{
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    .domain-mask-title span{
+        display: none;
+    }
+    .domain-mask{
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .domain-mask-title h3{
+        font-size: 18px;
+    }
+    .domain-mask-content{
+        margin-top: 10px;
+    }
+    .domain-info .bx-controls-direction{
+        display: none;
+    }
+    .d-go-more{
+        margin: 10px auto;
+    }
+    .s-case{
+        height: auto;
+        padding: 20px 0;
+    }
+    .case-info{
+        margin-top: 20px;
+    }
+    .title-na{
+        font-size: 18px;
+    }
+    .s-more{
+        margin: 20px auto;
+    }
+    .s-process{
+        padding-top: 20px;
+    }
+    .process-info{
+        display: none;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .process-info-sj{
+        display: block;
+    }
+    .p-i-top{
+        width: 100%;
+    }
+    .process-info .p-items{
+        width: 16%;
+        margin: 2%;
+    }
+    .p-items .p-i-icon{
+        width: 100%;
+        height: 58px;
+        margin-left: 0;
+        line-height: 58px;
+    }
+    .p-i-icon img{
+        margin-top: 0;
+        vertical-align: middle;
+        width: 50%;
+        height: 50%;
+    }
+    .p-i-txt{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .to-go-next{
+        width: 25%;
+        height: 120px;
+    }
+    .p-i-middle{
+        display: inline-block;
+        width: 75%;
+        float: right;
+    }
+    .s-more{
+        width: 150px;
+        height: 40px;
+    }
+    .s-more .s-m-txt{
+        margin: 15px auto;
+    }
+    .feed-back{
+        padding-top: 20px;
+    }
+    .back-info{
+        width: 100%;
+        margin: 20px auto;
+        padding: 0;
+    }
+    .back-info ul{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .back-info ul li{
+        width: 100%;
+    }
+    .bottom-line{
+        width: 100%;
+    }
+    .to-submit-feed{
+        width: 40%;
+        height: 40px;
+        line-height: 40px;
+    }
+    .sense{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .c-s-title .s-t-left{
+        font-size: 18px;
+    }
+    .sense-info{
+        width: 100%;
+    }
+    .sense-info ul{
+        width: 100%;
+    }
+    .sense-info ul li{
+        display: none;
+    }
+    .sense-info ul li:first-child{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .sense-item-pic{
+        height: 240px;
+    }
+    .sense-item-text{
+        padding: 20px 50px 0;
+        height: 240px;
+    }
+    /*业务范围*/
+    .subpage-body{
+        width: 100%;
+    }
+    .subpage{
+        padding: 0 2%;
+        box-sizing: border-box;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .subpage-side-menu{
+        float: none;
+        width: 100%;
+    }
+    .subpage-side-menu ul:after{
+        content: '';
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    .subpage-side-menu ul li{
+        float: left;
+        width: 33.33%;
+        line-height: 36px;
+    }
+    .subpage-content{
+        float: none;
+        width: 100%;
+    }
+    .ywfw-content{
+        padding: 20px 10px;
+    }
+    .ywfw-item-text{
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    .ywfw-item-text p{
+        padding-bottom: 5px;
+    }
+    .ywfw-page{
+        margin: 5px auto;
+    }
+    /*团队介绍*/
+    .tdjs-bg-fff{
+        position: static;
+        margin-top: 20px;
+        height: auto;
+    }
+    .tdjs-content{
+        position: static;
+    }
+    .tdjs-pic{
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        height: 285px;
+    }
+    .tdjs-text{
+        margin-top: 10px;
+        margin-left: 0;
+        float: none;
+        width: 100%;
+    }
+    .tdjs-title h2{
+        font-size: 18px;
+    }
+    .tdjs-text .ch{
+        width: 100%;
+    }
+    /*资质报告*/
+    .zzbg-content{
+        margin-top: 20px;
+    }
+    .zzbg-item-pic{
+        height: 122px;
+    }
+    .zzbg-item-text{
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    /*发展历程*/
+    .fzlc-content{
+        margin-top: 20px;
+    }
+    .fzlc-list li{
+        width: 100%;
+        background-image: none;
+        padding: 10px 0;
+    }
+    .fzlc-item-tilte{
+        padding: 0 10px;
+    }
+    .fzlc-year{
+        font-size: 20px;
+    }
+    .fzlc-item-tilte h2{
+        line-height: 20px;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .fzlc-day .date, .fzlc-day .month{
+        font-size: 18px;
+    }
+    .fzlc-item-text{
+        padding: 20px 10px;
+    }
+    .fzlc-item-text p{
+        display: -webkit-box;
+        -webkit-box-orient:vertical;
+        -webkit-line-clamp:5;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    /*企业文化*/
+    .qywh-text{
+        width: 100%;
+    }
+    .qywh-pic{
+        width: 100%;
+    }
+    .qywh-text p{
+        color: #333333;
+    }
+    /*金牌律师*/
+    .jpls-content{
+        margin-top: 20px;
+    }
+    .jpls-list li{
+        width: 32%;
+        margin-right: 2%;
+    }
+    /*成功案例*/
+    .cgal-list li{
+        padding: 10px;
+    }
+    .cgal-item-text p{
+        display: -webkit-box;
+        -webkit-box-orient:vertical;
+        -webkit-line-clamp:4;
+        overflow: hidden;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+    }
+    .cgal-item-more{
+        width: 30px;
+        height: 28px;
+        margin: 60px 0 0 10px;
+        line-height: 28px;
+        font-size: 24px;
+    }
+    /*服务流程*/
+    .fwlc-body{
+        width: 100%;
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+    .fwlc{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .fwlc-content{
+        background: none;
+    }
+    .fwlc-title .en{
+        font-size: 18px;
+    }
+    .fwlc-title .ch{
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .fwlc-list{
+        display: none;
+    }
+    .fwlc-list-sj{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .fwlc-list-sj li{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .fwlc-sj-icon{
+        width: 50px;
+        height: 50px;
+        background: red;
+        border-radius: 50%;
+    }
+    .fwlc-list-sj li h3{
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .fwlc-list-sj li p{
+        display: -webkit-box;
+        -webkit-box-orient:vertical;
+        -webkit-line-clamp:3;
+        overflow: hidden;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+    }
+    /*法律常识*/
+    .flcs-body{
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+    .flcs{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .flcs-title{
+        width: 100%;
+    }
+    .flcs-title .en{
+        font-size: 18px;
+    }
+    .flcs-title .ch{
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .flcs-content{
+        margin-top: 20px;
+    }
+    .flcs-list li{
+        margin-bottom: 15px;
+    }
+    .flcs-item-pic{
+        width: 50%;
+        height: 112px;
+        margin: 20px;
+    }
+    .flcs-item-text{
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .flcs-text-time{
+        width: 20%;
+    }
+    .flcs-text{
+        width: 70%;
+        margin-left: 5%;
+    }
+    .flcs-text-arrow{
+        display: none;
+    }
+    /*在线留言*/
+    .zxly-body{
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+    .zxly{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .zxly-title .en{
+        font-size: 18px;
+    }
+    .zxly-title .ch{
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .feed-back{
+        width: 100%;
+    }
+    .zxly-feed-back{
+        padding-top: 0;
+    }
+    .zxly-line-d9{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .xgtj{
+        width: 100%;
+    }
+    .xgtj-title{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .xgtj-cgal{
+        float: none;
+        width: 100%;
+    }
+    .xgtj-flcs{
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .xgtj-flcs-content ul{
+        width: 100%;
+    }
+    /*联系我们*/
+    .banner-wrap{
+        height: auto;
+    }
+    .connect{
+        padding-top: 20px;
+    }
+    .connect-info{
+        width: 100%;
+        margin: 20px 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .c-c-left{
+        width: 100%;
+        float: none;
+    }
+    .c-c-right{
+        float: none;
+        width: 100%;
+        height: 193px;
+    }
+    /*详情页*/
+    .detail-body{
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+    .xwxq-body{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .xwxq-location{
+        display: none;
+    }
+    .xwxq-content h3{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .xwxq-time{
+        margin: 10px auto;
+    }
+    .xwxq-pic{
+        height: auto;
+    }
+
 }
 @media screen and (min-width: 769px){
     .sj-nav{
         display: none;
     }
     .pho_footer{
+        display: none;
+    }
+    .fwlc-list-sj{
         display: none;
     }
 }

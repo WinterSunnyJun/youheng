@@ -2,9 +2,46 @@
 /* banner */
 .banner-wrap{
     width: 100%;
-    height: 638px;
-    background: #e47900; 
+    background: #e47900;
 }
+.banner-wrap .bx-wrapper{
+    box-shadow: none;
+    border: none;
+    background: none;
+    margin-bottom: 0;
+}
+
+.banner-wrap .bx-wrapper .bx-pager.bx-default-pager a{
+    background: #ffffff;
+    text-indent: -9999px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin: 0 20px;
+    outline: 0;
+    -webkit-border-radius: 0 !important;
+     border-radius: 0 !important;
+}
+.banner-wrap .bx-wrapper .bx-pager{
+    bottom: 60px;
+}
+.banner-wrap .bx-wrapper .bx-pager.bx-default-pager a.active,
+.banner-wrap .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #b5d7fa;
+}
+.banner-wrap .bx-wrapper .bx-pager-item,
+.banner-wrap .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    vertical-align: bottom;
+    *zoom: 1;
+    *display: inline;
+}
+.banner-wrap .bx-wrapper .bx-pager-item {
+    font-size: 0;
+    line-height: 0;
+}
+
+
 .banner-list{
     width: 100%;
     height: 100%;
@@ -51,6 +88,15 @@
     margin:92px auto 0;
     position: relative;
 }
+.domain-info .bx-wrapper{
+    box-shadow: none;
+    border: none;
+    background: none;
+}
+.domain-info .bx-pager{
+    display: none;
+}
+
 .domain-info ul{
     width:100%;
     height:286px;
@@ -86,7 +132,7 @@
 }
 .domain-mask{
     display: none;
-    background: #4e9deb;
+    background: #008bff;
     position: absolute;
     padding: 35px 28px 0;
     box-sizing: border-box;
@@ -96,9 +142,6 @@
     top: 0;
     text-align: center;
     z-index: 2;
-}
-.domain-info ul li:hover .domain-mask{
-    display: block;
 }
 .domain-info ul li:hover{
     box-shadow: 0 10px 5px #d1e6fa;
@@ -135,24 +178,25 @@
     color: #ffffff;
 }
 
-.d-btn{
-    width: 21px;
-    height: 39px;
+.domain-info .bx-prev,
+.domain-info .bx-next{
+    width: 21px !important;
+    height: 39px !important;
     position: absolute;
     cursor: pointer;
 }
-.d-btn.btn-left{
+.domain-info .bx-prev{
     left: -50px;
     top:50%;
     margin-top: -20px;
     background: url(../images/d-btn-left.png) no-repeat;
 }
-.d-btn.btn-right{
-    right: -10px;
+.domain-info .bx-next{
+    right: -50px;
     top:50%;
     margin-top: -20px;
     background: url(../images/d-btn-right.png) no-repeat;
-}
+    }
 .d-go-more{
     margin: 72px auto 0;
     width:105px;

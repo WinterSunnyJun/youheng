@@ -68,3 +68,10 @@
 .nav-lists li.active a{
     color:#008bff;
 }
+.nav-lists li:hover{
+    background: #fff;
+    border-bottom:3px solid #008bff;
+}
+.nav-lists li:hover a{
+    color: #008bff;
+}

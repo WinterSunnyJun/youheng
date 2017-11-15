@@ -7,6 +7,38 @@ $(function () {
 //    banner
     $('#banner-list').bxSlider();
 
+//    首页业务领域
+    if($(window).width() > 780){
+        $('#domain-list').bxSlider({
+            minSlides:4,
+            maxSlides:4,
+            moveSlides:1,
+            slideWidth:222,
+            slideMargin:38
+        })
+    }else {
+        $('#domain-list').bxSlider({
+            minSlides:2,
+            maxSlides:2,
+            moveSlides:1,
+            slideWidth:150,
+            slideMargin:38
+        })
+    }
+
+
+    $('.domain-info ul li').hover(function () {
+        $(this).find('.domain-mask').fadeIn(1000);
+    },function () {
+        $(this).find('.domain-mask').fadeOut();
+    })
+//业务范围
+    $('.subpage-side-menu ul li').click(function () {
+        var iNow = $(this).index();
+        $('.subpage-side-menu ul li').eq(iNow).addClass('active').siblings().removeClass('active');
+    })
+
+
 //    在线留言之相关推荐
     var zxNow = 0;
     var zxLi = $('.xgtj-flcs-content ul li').length;
