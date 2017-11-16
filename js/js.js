@@ -61,4 +61,24 @@ $(function () {
     $('#sj-nav-bar').click(function () {
         $('.sj-nav-menu').slideToggle();
     })
+
+//    成功案例
+    var caseLi = $('.case-big-list li').length;
+    var caseNow = 0;
+    $('.case-left').click(function () {
+        caseNow--;
+        if(caseNow < 0){
+            caseNow = caseLi - 1;
+        }
+        $('.case-big-list li').eq(caseNow).show().siblings().hide();
+        $('.case-xs-pic li').eq(caseNow).show().siblings().hide();
+    })
+    $('.case-right').click(function () {
+        caseNow++;
+        if(caseNow > caseLi - 1){
+            caseNow = 0;
+        }
+        $('.case-big-list li').eq(caseNow).show().siblings().hide();
+        $('.case-xs-pic li').eq(caseNow).show().siblings().hide();
+    })
 })

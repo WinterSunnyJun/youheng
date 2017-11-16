@@ -163,7 +163,44 @@
     }
     .case-info{
         margin-top: 20px;
+        width: 100%;
     }
+    .case-info-box{
+        width: 100%;
+        margin-left:0;
+    }
+    .case-xs-pic{
+        display: none;
+    }
+    .case-big-list{
+        position: static;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .case-big-text{
+        width: 50%;
+        height: 50%;
+        right: 0;
+    }
+    .case-big-text h5{
+        font-size: 18px;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+    .case-big-text p{
+        margin-top: 5px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp:2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .case-more{
+        width: 50px;
+        font-size: 12px;
+    }
+
+
     .title-na{
         font-size: 18px;
     }
@@ -307,6 +344,9 @@
     .ywfw-item-text{
         margin-top: 10px;
         overflow: hidden;
+    }
+    .ywfw-text-icon{
+        height: auto;
     }
     .ywfw-item-text p{
         padding-bottom: 5px;
@@ -617,6 +657,9 @@
         display: none;
     }
     .fwlc-list-sj{
+        display: none !important;
+    }
+    .process-info-sj{
         display: none;
     }
 }

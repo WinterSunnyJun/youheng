@@ -260,6 +260,8 @@
 }
 .p-i-icon img{
     margin-top:28px;
+    width: 50%;
+    height: 50%;
 }
 /* .p-items .p-i-icon.icon1{
     background: url(../images/zixun.png) no-repeat center center;
